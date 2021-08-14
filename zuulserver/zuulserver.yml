@@ -1,3 +1,3 @@
-zuul.ignored-services: 'organization' #e.g.: '*'
+#zuul.ignored-services: 'organization' #e.g.: '*'
 zuul.prefix: /api
-zuul.routes.organization: /org/** #mapping routes manually
+#zuul.routes.organization: /org/** #mapping routes manually
