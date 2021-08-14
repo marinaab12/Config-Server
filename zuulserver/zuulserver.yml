@@ -1,3 +1,4 @@
 #zuul.ignored-services: 'organization' #e.g.: '*'
 zuul.prefix: /api
 #zuul.routes.organization: /org/** #mapping routes manually
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
