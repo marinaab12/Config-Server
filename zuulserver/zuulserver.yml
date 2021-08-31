@@ -2,3 +2,6 @@
 zuul.prefix: /api
 #zuul.routes.organization: /org/** #mapping routes manually
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
+zuul.sensitiveHeaders: Cookie,Set-Cookie
+zuul.debug.request: true
+signing.key: "345345fsdfsf5345"
